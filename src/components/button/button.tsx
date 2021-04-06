@@ -1,11 +1,10 @@
 import React from 'react';
-
-// import styles from './styles.module.css';
+import './styles.module.scss';
 
 function ctaButton() {
     return (
         <>
-            <button className=".button">
+            <button className={`button`}>
                 Button
             </button>
         </>

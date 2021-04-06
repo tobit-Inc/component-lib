@@ -1,6 +1,6 @@
 {
   "name": "@tobit-inc/tobit-component-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Component Library by Tobit Misoi",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
@@ -28,6 +28,7 @@
     "npm-run-all": "^4.1.5",
     "rollup": "^2.44.0",
     "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-scss": "^2.6.1",
     "rollup-plugin-typescript": "^1.0.1",
     "scss-config-webpack-plugin": "^2.0.0",
     "typescript": "^4.2.3"
@@ -36,10 +37,5 @@
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
-  "dependencies": {
-    "css-loader": "^5.2.0",
-    "css-modules-typescript-loader": "^4.0.1",
-    "sass-loader": "^11.0.1",
-    "style-loader": "^2.0.0"
-  }
+  "dependencies": {}
 }
