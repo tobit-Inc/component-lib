@@ -1,0 +1,45 @@
+{
+  "name": "@tobit-inc/tobit-component-library",
+  "version": "1.0.0",
+  "description": "React Component Library by Tobit Misoi",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "build-watch": "rollup -c -w",
+    "fire-playground": "cd playground && npm run start",
+    "i-all": "npm i && cd playground && npm i",
+    "dev": "npm-run-all --parallel build-watch fire-playground"
+  },
+  "author": "Tobit Misoi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/styled-components": "^5.1.9",
+    "npm-run-all": "^4.1.5",
+    "rollup": "^2.44.0",
+    "rollup-plugin-delete": "^2.0.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "scss-config-webpack-plugin": "^2.0.0",
+    "typescript": "^4.2.3"
+  },
+  "peerDependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "dependencies": {
+    "css-loader": "^5.2.0",
+    "css-modules-typescript-loader": "^4.0.1",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0"
+  }
+}
